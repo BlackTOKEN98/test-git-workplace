@@ -4,7 +4,9 @@
   "description": "111",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest", 
+    "lint": "eslint .",
+    "lint:fix": "eslint . —fix"
   },
   "repository": {
     "type": "git",
